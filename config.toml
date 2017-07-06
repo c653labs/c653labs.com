@@ -1,3 +1,18 @@
-baseURL = "http://example.org/"
+baseURL = "https://c653labs.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "C653 Labs"
+theme = "aerial"
+
+[params]
+  name = "C653 Labs"
+  about = ""
+
+[[params.social]]
+  medium = "GitHub"
+  icon = "github"
+  link = "https://github.com/c653labs"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:contact@c653labs.com"
