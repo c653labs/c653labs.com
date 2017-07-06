@@ -2,6 +2,7 @@ baseURL = "https://c653labs.com"
 languageCode = "en-us"
 title = "C653 Labs"
 theme = "aerial"
+googleAnalytics = "UA-102144354-1"
 
 [params]
   name = "C653 Labs"
