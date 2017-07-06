@@ -6,7 +6,7 @@ googleAnalytics = "UA-102144354-1"
 
 [params]
   name = "C653 Labs"
-  about = ""
+  about = "Software and Devops consulting. Contact us today."
 
 [[params.social]]
   medium = "GitHub"
