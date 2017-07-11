@@ -8,6 +8,7 @@ googleAnalytics = "UA-102144354-1"
   name = "C653 Labs"
   about = "Software and Devops consulting. Contact us today."
   copyright = "C653 Labs, LLC"
+  favicon = "favicon.ico"
 
 [[params.social]]
   medium = "GitHub"
