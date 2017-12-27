@@ -4,56 +4,185 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>C653 Labs</title>
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
     <style>
      html, body { font-family: 'Lato'; sans-serif; }
+     .hero-body { font-family: 'Alegreya', serif; }
+     .hero-logo { height: 6rem; }
+     .container { max-width: 800px; }
     </style>
   </head>
   <body>
-    <section class="hero is-dark is-bold is-fullheight">
+    <section class="hero is-dark is-bold is-medium">
       <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <div class="navbar-item">
-                <h1 class="title is-4">C653 Labs</h1>
-              </div>
-            </div>
-            <div class="navbar-menu">
-              <div class="navbar-end">
-                <div class="navbar-item">
-                  <div class="fieldis-grouped">
-                    <a class="button" target="_blank" href="https://github.com/brettlangdon">
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>GitHub</span>
-                    </a>
-                    <a class="button is-info" target="_blank" href="https://twitter.com/brettlangdon">
-                      <span class="icon">
-                        <i class="fab fa-twitter"></i>
-                      </span>
-                      <span>Twitter</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
       </div>
       <div class="hero-body has-text-centered">
         <div class="container">
-          <h1 class="title is-size-1">C653 Labs</h1>
+          <img class="hero-logo" src="/static/img/c653labs-light.svg" />
           <h2 class="subtitle">Software and DevOps consulting.</h2>
+          <div>
+            <a class="button" target="_blank" href="mailto:brett@c653labs.com">
+              <span class="icon">
+                <i class="far fa-envelope"></i>
+              </span>
+              <span>E-Mail</span>
+            </a>
+            <a class="button is-info" target="_blank" href="https://twitter/brett_langdon">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>Twitter</span>
+            </a>
+            <a class="button" target="_blank" href="https://github.com/brettlangdon">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <h2 class="title is-2">About</h2>
+          <p>
+            C653 Labs is a small Software and DevOps consulting firm.
+            While we don't shy away from any project, we love when we can work with <a href="https://www.docker.com/" target="_blank">Docker</a>, <a href="https://aws.amazon.com/" target-"_blank">AWS</a>, <a href="https://www.python.org/" target="_blank">Python</a>/<a href="http://flask.pocoo.org/" target="_blank">Flask</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target-"_blank">JavaScript</a>/<a href="https://nodejs.org/" target="_blank">Node.js</a>/<a href="https://vuejs.org/" target="_blank">Vue.js</a>.
+          </p>
+          <p>
+            C653 Labs was started in 2017 and is owned and operated by <a href="https://brett.is/" target="_blank">Brett Langdon</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <h2 class="title is-2">Previous work</h2>
+          <p>
+            The following is an example of work performed for previous clients:
+
+            <ul>
+              <li>Managed AWS environment including but not limited to EC2 instances, ECS cluster, RDS/PostgreSQL.</li>
+              <li>Migrated web application and database from Heroku to AWS</li>
+              <li>Configured AWS resources for HIPAA compliance</li>
+              <li>Setup and managed AWS innfrastructure via Terraform</li>
+              <li>Developed client facing features for React.js app</li>
+              <li>Developed scalable backend Python API solutions</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <h2 class="title is-2">Projects</h2>
+
+          <div class="columns">
+            <div class="column">
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image is-48x48">
+                    <img src="https://mailchemy.com/img/mailchemy-light-small.svg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <h3 class="title is-4"><a href="https://mailchemy.com/" target="_blank">Mailchemy</a></h3>
+                  <h4 class="subtitle is-6">Transactional email simplified.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <p>
+                Mailchemy is an easy to integrate API that allows your team to build and manage custom transactional email pipelines utilizing your favorite email provider and integrations.
+              </p>
+              <p>
+                The development of Mailchemy is still in progress.
+              </p>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image is-48x48">
+                    <img src="https://icanhazdadjoke.com/static/smile.svg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <h3 class="title is-4"><a href="https://icanhazdadjoke.com/" target="_blank">icanhazdadjoke</a></h3>
+                  <h4 class="subtitle is-6">The largest selection of dad jokes on the internet.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <p>
+                What started as a fun weekend project quickly turned into one of the best sources of dad jokes available on the internet. With over 20,000 unique website visits each month.
+              </p>
+              <p>
+                Our official Slack app is currently installed on over 3500 Slack teams and is ranked in the top 20 <a href="https://slack.com/apps/category/At0EFXUU0J-social-fun" target="_blank">Social & Fun</a> Slack apps.
+              </p>
+              <p>
+                "Alexa, dad joke" has been enabled on over 600 Alexa devices and is spoken at least 80 times per day.
+              </p>
+              <p>
+                With an easy to use <a href="https://icanhazdadjoke.com/api" target="_blank">API</a>, including support for <a href="http://graphql.org/" target="_blank">GrapghQL</a>, icanhazdadjoke receives over 20,000 unique API requests per day.
+              </p>
+              <p>
+                Official integrations available for:
+                <ul>
+                  <li><a href="https://slack.com/" target="_blank">Slack</a></li>
+                  <li><a href="https://www.amazon.com/Brett-Langdon-icanhazdadjoke/dp/B01N6CQ3NZ/" target="_blank">Alexa</a></li>
+                  <li><a href="https://twistapp.com/" target="_blank">Twist</a></li>
+                  <li><a href="https://hipchat.com/" target="_blank">HipChat</a></li>
+                  <li><a href="https://nightbot.tv/" target="_blank">Nightbot</a></li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image is-48x48">
+                    <img src="https://markovvows.com/static/logo.svg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <h3 class="title is-4"><a href="https://markovvows.com/" target="_blank">Markov Vows</a></h3>
+                  <h4 class="subtitle is-6">Artisinal wedding vows crafted with love from Artificial Intelligence.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <p>
+                Markov Vows is another fun project that utilizes a <a href="https://en.wikipedia.org/wiki/Markov_chain" target-"_blank">Markov Chain</a> trained with over 600 heartfelt/real wedding vows to generate unique, and usually funny wedding vows.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            &copy;2017-<span id="current-year">2017</span> C653 Labs, LLC
+          </p>
+        </div>
       </div>
     </footer>
+    <script>document.getElementById('current-year').innerText = new Date().getFullYear();</script>
   </body>
 </html>

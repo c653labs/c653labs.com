@@ -1,0 +1,78 @@
+<svg width="204" height="204" viewBox="0 0 204 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Circle Light Small</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(4 0 0 4 -124 -4256)">
+<g id="Circle Light Small">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(31 1064)" fill="#FFFFFF"/>
+</g>
+<g id="Vintage Keyboard Dark ">
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(40 1082)" fill="#3B3B3B"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-1" y="-1" width="35" height="18" transform="translate(40 1082)"/>
+<use xlink:href="#path1_fill" fill="black" transform="translate(40 1082)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path2_stroke_2x" transform="translate(40 1082)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path3_fill" transform="translate(46.6 1093.43)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(42.2 1093.43)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(44.4 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(48.8 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(53.2 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(57.6 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(62 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(66.4 1088.86)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(42.2 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(46.6 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(51 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(55.4 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(59.8 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(64.2 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path4_fill" transform="translate(68.6 1084.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(68.6 1093.43)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 51 25.5C 51 39.5833 39.5833 51 25.5 51C 11.4167 51 0 39.5833 0 25.5C 0 11.4167 11.4167 0 25.5 0C 39.5833 0 51 11.4167 51 25.5Z"/>
+<path id="path1_fill" d="M 0 2C 0 0.895431 0.895431 0 2 0L 31 0C 32.1046 0 33 0.895431 33 2L 33 14C 33 15.1046 32.1046 16 31 16L 2 16C 0.895431 16 0 15.1046 0 14L 0 2Z"/>
+<path id="path2_stroke_2x" d="M 2 1L 31 1L 31 -1L 2 -1L 2 1ZM 32 2L 32 14L 34 14L 34 2L 32 2ZM 31 15L 2 15L 2 17L 31 17L 31 15ZM 1 14L 1 2L -1 2L -1 14L 1 14ZM 2 15C 1.44772 15 1 14.5523 1 14L -1 14C -1 15.6569 0.343146 17 2 17L 2 15ZM 32 14C 32 14.5523 31.5523 15 31 15L 31 17C 32.6569 17 34 15.6569 34 14L 32 14ZM 31 1C 31.5523 1 32 1.44772 32 2L 34 2C 34 0.343146 32.6569 -1 31 -1L 31 1ZM 2 -1C 0.343146 -1 -1 0.343146 -1 2L 1 2C 1 1.44772 1.44772 1 2 1L 2 -1Z"/>
+<path id="path3_fill" d="M 0 1.14286C 0 0.511675 0.511675 0 1.14286 0L 18.6571 0C 19.2883 0 19.8 0.511675 19.8 1.14286L 19.8 1.14286C 19.8 1.77404 19.2883 2.28571 18.6571 2.28571L 1.14286 2.28571C 0.511675 2.28571 0 1.77404 0 1.14286L 0 1.14286Z"/>
+<path id="path4_fill" d="M 2.2 1.14286C 2.2 1.77404 1.70751 2.28571 1.1 2.28571C 0.492487 2.28571 0 1.77404 0 1.14286C 0 0.511675 0.492487 0 1.1 0C 1.70751 0 2.2 0.511675 2.2 1.14286Z"/>
+</defs>
+</svg>
