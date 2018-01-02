@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Lato);
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+$family-serif: "Lato", serif;
+$family-primary: $family-serif;
+
+@import "bulma/sass/utilities/derived-variables.sass";
+
+// Import bulma components
+// DEV: We are only importing what we need
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/base/_all";
+
+@import "bulma/sass/elements/button";
+@import "bulma/sass/elements/content";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/elements/content";
+@import "bulma/sass/elements/icon";
+@import "bulma/sass/elements/image";
+@import "bulma/sass/elements/title";
+
+@import "bulma/sass/components/media";
+@import "bulma/sass/components/tabs";
+
+@import "bulma/sass/grid/columns";
+
+@import "bulma/sass/layout/_all";
+
+
+// Customizations
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-body {
+    font-family: 'Alegreya', serif;
+}
+
+.hero-logo {
+    height: 6rem;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.columns {
+    margin-top: 0;
+}
+
+.section.is-light {
+    background-color: $light;
+}
+
+@include mobile {
+    .columns:not(.first-column) {
+        margin-top: 3rem;
+    }
+    .column .media .media-left {
+        margin-left: .25rem;
+    }
+    .column:last-child {
+        padding-top: 0;
+    }
+    .column {
+        padding-bottom: 0;
+    }
+}
