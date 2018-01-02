@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "C653 Labs website",
   "devDependencies": {
+    "@brett_langdon/lrserver": "^1.0.1",
     "bulma": "^0.6.1",
     "node-sass": "^4.7.2"
   },
   "scripts": {
-    "build": "node-sass --include-path node_modules/ --output static/css/ --output-style compressed static/scss/styles.scss"
+    "build": "node-sass --include-path node_modules/ --output static/css/ --output-style compressed static/scss/styles.scss",
+    "dev": "lrs",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/c653labs/c653labs.com/issues"
   },
-  "homepage": "https://github.com/c653labs/c653labs.com"
+  "homepage": "https://github.com/c653labs/c653labs.com",
+  "dependencies": {}
 }
