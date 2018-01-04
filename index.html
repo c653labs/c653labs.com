@@ -94,20 +94,24 @@
 
           <div class="columns first-column">
             <div class="column">
-              <h3 class="title is-4">Resume parsing &amp; layout analysis</h3>
+              <h3 class="title is-4">Resume parsing with layout analysis</h3>
             </div>
             <div class="column">
-              <h4 class="title is-5">Problem</h4>
               <p>
-                Client needed a way to both parse data from resumes as well as auto add/fix links embedded in the resumes.
-              </p>
-              <h4 class="title is-5">Solution</h4>
-              <p>
-                We developed a resume parsing library to appropriately parse the text out of a resume.
-                This parsing library used custom layout analysis processing that improved the quality of the text groupings parsed compared to other text extraction methods.
+                While working for a client who processes a large number of resumes they wanted a way to parse text from PDF documents as well as to auto-fix malformed PDF links.
               </p>
               <p>
-                As part of this project we also developed a library to allow parsing the adding or fixing all links found embedded inside of the resumes.
+                A common issue with parsing text from PDF documents is that you tend to get the text extracted in a typical left-to-right top-to-bottom order,
+                but as most resumes have non-traditional formatting this process can yield undesireable and unlegible results.
+              </p>
+              <p>
+                For this project we developed a customer PDF text extraction library which uses layout analysis to properly find and group text.
+                This library helped yield much more legible extracted text that could then be fed into a text analysis process used by the client.
+              </p>
+              <p>
+                Another issue that the client was seeing was malformed links embedded in the resume PDFs that would either not work when clicked or would link to an incorrect location.
+                Part of our solution was to also provide a process for adding, removing, or fixing links inside of a PDF document.
+                As a result the number of valid and clickable links across all of their PDFs was drastically improved.
               </p>
             </div>
           </div>
@@ -117,14 +121,16 @@
               <h3 class="title is-4">Terraform AWS configuration</h3>
             </div>
             <div class="column">
-              <h4 class="title is-5">Problem</h4>
               <p>
                 Client wanted an auditable &amp; testable way to provision their AWS environment.
               </p>
-              <h4 class="title is-5">Solution</h4>
                <p>
-                 We configured <a href="https://terraform.io" target="_blank">Terraform</a> to provision multiple AWS environments utilizing
-                 Continuous Integration to ensure consistent configuration standards, and Continuous Delivery to deploy any changes to their AWS environments.
+                 We configured <a href="https://terraform.io" target="_blank">Terraform</a> to provision multiple <a href="https://aws.amazon.com/" target="_blank">AWS</a> environments utilizing
+                 <a href="https://en.wikipedia.org/wiki/Continuous_integration" target="_blank">Continuous Integration</a> to ensure consistent configuration standards,
+                 and <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">Continuous Delivery</a> to deploy any changes to their AWS environments.
+               </p>
+               <p>
+                 Part of this project involved backfilling the client's existing AWS resources into Terraform as well as configuring new resources they required.
                </p>
             </div>
           </div>
@@ -134,29 +140,14 @@
               <h3 class="title is-4">Oauth 2 single sign-on service</h3>
             </div>
             <div class="column">
-              <h4 class="title is-5">Problem</h4>
               <p>
-                Client was building a product that needed user authentication.
+                Client was building multiple web products that required use authentication.
               </p>
-              <h4 class="title is-5">Solution</h4>
               <p>
-                We developed a central shared single sign-on service for the client that allowed their users to re-use their login credentials between multiple applications.
+                We developed a central shared OAuth2 single sign-on service for the client that allowed their users to re-use their login credentials between multiple applications.
               </p>
-            </div>
-          </div>
-
-          <div class="columns">
-            <div class="column">
-              <h3 class="title is-4">E-mail open/click tracking</h3>
-            </div>
-            <div class="column">
-              <h4 class="title is-5">Problem</h4>
               <p>
-                Client desired a way to more tightly integrate e-mail open and click tracking with their existing event tracking system.
-              </p>
-              <h4 class="title is-5">Solution</h4>
-              <p>
-                We developed a custom event tracking service that supported both open tracking pixels and redirecting click tracking urls.
+                This solution allowed them to abstract away the authentication from their web products and more easily integrate new applications with their existing user base.
               </p>
             </div>
           </div>
@@ -166,19 +157,28 @@
               <h3 class="title is-4">Application migration to Docker</h3>
             </div>
             <div class="column">
-              <h4 class="title is-5">Problem</h4>
               <p>
-                Client wanted to move their applications to Docker.
-              </p>
-              <h4 class="title is-5">Solution</h4>
-              <p>
-                We helped update their applications to allow running them in Docker containers, which included configuring 12-factor app environment variable configuration pattern.
+                Client wanted to move their application from AWS <a href="https://aws.amazon.com/ec2/" target="_blank">Elastic Compute Cloud</a> (EC2) instances <a href="https://aws.amazon.com/ecs/" target="_blank">Elastic Container Service</a> (ECS) to help increase developer velocity and reduce operational footprint.
               </p>
               <p>
-                We migrated their Jenkins testing environment to utilize Docker for running unit and integration tests.
+                We helped update their applications to allow running them in <a href="https://www.docker.com/" target="_blank">Docker</a> containers, which included integrating the <a href="https://12factor.net/" target="_blank">12-factor app</a> environment variable configuration pattern.
               </p>
               <p>
-                We migrated their production environment to AWS ECS.
+                We migrated their <a href="https://jenkins.io/" target="_blank">Jenkins</a> testing environment to utilize Docker for running unit and integration tests.
+              </p>
+              <p>
+                Finally, we helped with make the final move of migrating their production environment from EC2 instances to ECS.
+              </p>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <h3 class="title is-4">Technical interviewing</h3>
+            </div>
+            <div class="column">
+              <p>
+                Helped client develop their internal technical interviewing process and aid in the interviewing of technical candidates for various roles.
               </p>
             </div>
           </div>
