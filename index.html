@@ -24,6 +24,12 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
   </head>
   <body>
+    <a class="jump-to-top box is-hidden" style="background-color: rgba(255, 255, 255, 0.8); position: fixed; right: 1rem; bottom: 0.25rem; z-index: 90; border-radius: 0.5rem; width: 3rem; height: 3rem;">
+      <span class="icon is-large has-text-dark" style="padding: 0.5rem; width: 3rem; height: 3rem;">
+        <i class="fas fa-2x fa-chevron-up"></i>
+      </span>
+    </a>
+
     <section class="hero is-dark is-bold is-medium">
       <div class="hero-body has-text-centered">
         <div class="container">
@@ -345,5 +351,51 @@
       </div>
     </footer>
     <script>document.getElementById('current-year').innerText = new Date().getFullYear();</script>
+    <script>
+      document.addEventListener('click', function (evt) {
+        if (evt.target.closest('.jump-to-top')) {
+          window.scrollTo(0, 0);
+        }
+      });
+
+      document.addEventListener('scroll', function () {
+        var jumpToTop = document.querySelector('.jump-to-top');
+        var hero = document.querySelector('.hero');
+        if (window.pageYOffset > (hero.clientHeight / 2)) {
+          jumpToTop.classList.remove('is-hidden');
+        } else {
+          jumpToTop.classList.add('is-hidden');
+        }
+
+        var sections = document.querySelectorAll('.section[id]');
+        var lowest = null;
+        for (var i = 0; i < sections.length; i++) {
+          if (window.pageYOffset >= sections[i].offsetTop) {
+            lowest = sections[i];
+          }
+        }
+
+        var currentActive = document.querySelector('.tabs .is-active a');
+        if (lowest === null) {
+          if (currentActive) {
+            if (window.history) {
+              window.history.replaceState({}, "", '/');
+            }
+            currentActive.parentNode.classList.remove('is-active');
+          }
+        } else {
+          if (currentActive && currentActive.attributes.href.value !== '#' + lowest.id) {
+            currentActive.parentNode.classList.remove('is-active');
+          }
+          var active = document.querySelector('.tabs a[href="#' + lowest.id + '"]');
+          if (active) {
+            if (window.history) {
+              window.history.replaceState({}, "", '/#' + lowest.id);
+            }
+            active.parentNode.classList.add('is-active');
+          }
+        }
+      });
+    </script>
   </body>
 </html>
