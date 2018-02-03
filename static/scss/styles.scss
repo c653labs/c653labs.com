@@ -23,6 +23,7 @@ $family-primary: $family-serif;
 @import "bulma/sass/elements/title";
 
 @import "bulma/sass/components/media";
+@import "bulma/sass/components/navbar";
 @import "bulma/sass/components/tabs";
 
 @import "bulma/sass/grid/columns";
@@ -33,6 +34,14 @@ $family-primary: $family-serif;
 // Customizations
 html, body {
     font-family: 'Lato', sans-serif;
+}
+
+.hero-head {
+    .navbar-menu {
+        .button:not(:first-child) {
+            margin-left: 0.5rem;
+        }
+    }
 }
 
 .hero-body {
