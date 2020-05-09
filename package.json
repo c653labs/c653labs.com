@@ -5,7 +5,7 @@
   "devDependencies": {
     "@brett_langdon/lrserver": "^1.0.1",
     "bulma": "^0.6.1",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "build": "node-sass --include-path node_modules/ --output static/css/ --output-style compressed static/scss/styles.scss",
